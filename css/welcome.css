@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(185,5,81);
+    background: linear-gradient(72deg, rgba(185,5,81,1) 0%, rgba(122,143,215,1) 52%, rgba(0,212,255,1) 100%);
+}
+
+.content_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+.exe__info {
+    width: 20rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.feedback_form {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #f8e5e5;
+}
+.contact {
+    margin: 2rem;
+}
+input {
+    height: 1.5rem;
+    width: 15rem;
+    padding-left: .5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d5cfcf;
+    color: black;
+}
+.form_text {
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8rem;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 1rem;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 120, 223);
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    margin: 1rem;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(12, 95, 179);
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "AC Announcer",
+    "description": "Announces your accepted submission in Leetcode with music",
+    "version": "1.0.0",
+    "author": "Surjendu Pal",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "AC Announcer"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://leetcode.com/*"
+            ],
+            "js": [
+                "scripts/leetcode.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "unlimitedStorage",
+        "storage"
+      ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
